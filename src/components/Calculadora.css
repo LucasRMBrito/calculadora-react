@@ -1,0 +1,32 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    background-color: bisque;
+    border-radius: 1em;
+}
+
+.laranja {
+    background-color: rgba(255, 166, 0, 0.548);
+}
+
+.cinza {
+    background-color: rgba(128, 128, 128, 0.705);
+}
+.resultado {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: 4em;
+}
